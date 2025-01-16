@@ -35,17 +35,18 @@ Este script `php-use.bat` é utilizado para gerenciar diferentes versões do PHP
 
 ### Configuração do Diretório PHP
 
-- Certifique-se de que todas as versões do PHP estão localizadas no diretório `C:\laragon\bin\php`.
+- Certifique-se de que todas as versões do PHP estão localizadas no diretório `C:\laragon\bin\php` ou altere o script em `PHP_DIR=C:\laragon\bin\php`.
 - Cada versão do PHP deve estar em uma pasta que segue o padrão `php-*` (por exemplo, `php-7.4.0`, `php-8.0.0`).
 
 ### Adicionar ao PATH
 
-- Execute o script `php-use.bat` pela primeira vez para adicionar o caminho `%PHP_DIR%\php-use` ao `PATH` do sistema.
+- Execute o script `php-use.bat` pela primeira vez para adicionar o caminho `%PHP_DIR%\php-use` ao `PATH` do sistema (nesse caso o terminal deverá estar rodando como administrador) ou você pode adicionar manualmente no PATH do Windows.
 
 ### Executar o Script
 
 - Sempre que precisar trocar a versão do PHP, execute o script `php-use.bat`.
 - Siga as instruções exibidas para selecionar a versão desejada.
+- Em caso de ter adicionado o PATH, você pode usar o comando `php-use` em qualquer local no terminal.
 
 ## Exemplo de Uso
 
